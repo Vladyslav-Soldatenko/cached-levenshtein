@@ -1,0 +1,29 @@
+{
+  "name": "cached-levenshtein",
+  "version": "1.0.0",
+  "description": "Uses cache to save already computed levenshtein distance. If the strings you compare often repeat, this will save you a lot of compotation power",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "levenshtein-distance",
+    "levenshtein",
+    "distance",
+    "words",
+    "algorithm"
+  ],
+  "author": "Vladyslav Soldatenko",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.16.0",
+    "fastest-levenshtein": "^1.0.16",
+    "timed-cache": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^2.1.2",
+    "@types/timed-cache": "^2.0.1",
+    "benchmark": "^2.1.4",
+    "typescript": "^5.0.4"
+  }
+}
