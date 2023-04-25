@@ -1,5 +1,5 @@
 import Benchmark from "benchmark";
-import { distance } from ".";
+import { distance } from "./index.js";
 import { distance as fastesLevenshtein } from "fastest-levenshtein";
 import fs from "fs";
 
@@ -17,7 +17,7 @@ const randomstring = (length:number) => {
 
 const randomstringArr = (stringSize:number, arraySize:number) => {
   let i = 0;
-  const arr = [];
+  const arr:string[] = [];
   const randomString =  randomstring(stringSize) 
 
   for (i = 0; i < arraySize; i++) {
