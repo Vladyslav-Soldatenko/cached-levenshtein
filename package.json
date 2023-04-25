@@ -25,6 +25,7 @@
     "fastest-levenshtein": "^1.0.16",
     "timed-cache": "^1.1.5"
   },
+  "repository": "https://github.com/Vladyslav-Soldatenko/cached-levenshtein",
   "devDependencies": {
     "@types/benchmark": "^2.1.2",
     "@types/timed-cache": "^2.0.1",
