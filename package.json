@@ -2,7 +2,9 @@
   "name": "cached-levenshtein",
   "version": "1.0.0",
   "description": "Uses cache to save already computed levenshtein distance. If the strings you compare often repeat, this will save you a lot of compotation power",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["/dist"],
   "scripts": {
     "build": "tsc",
     "bench":"npm run build && tsc benchmarks.ts --target es2015 --module commonjs --moduleResolution nodenext --esModuleInterop && node ./benchmarks.js"

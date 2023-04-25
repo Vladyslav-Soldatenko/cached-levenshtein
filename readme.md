@@ -32,7 +32,7 @@ However, caching has an overhead, so if you know that your strings will always b
 
 ## Performance
 
-The performance of cached-levenshtein is impressive, especially when compared to a regular Levenshtein distance implementation. Below is a chart that shows the performance difference between cached-levenshtein and a regular implementation:
+The performance of cached-levenshtein is impressive, especially when compared to a regular Levenshtein distance implementation. Below is a chart that shows the performance difference between cached-levenshtein and a regular implementation for 1000 RANDOM strings. The more exact strings dataset contains, the better performance cached-based implementation will give.
 
 ![Chart](./img/chart.png)
 <br>
